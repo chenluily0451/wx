@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/person/person",
+    "pages/index/index",
+    "pages/toast/toast",
+    "pages/inner/inner"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/person/person",
+      "text": "asd",
+      "iconPath": "pages/img/photo.png",
+      "selectedIconPath":"pages/img/photo.png"
+    },{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/img/photo.png",
+      "selectedIconPath":"pages/img/photo.png",
+      "position":"bottom"
+    },{
+      "pagePath": "pages/toast/toast",
+      "text": "dfsdfs",
+      "iconPath": "pages/img/photo.png",
+      "selectedIconPath":"pages/img/photo.png"
+    }
+    ],
+    "position":"bottom"
+  }
+
+  
+}

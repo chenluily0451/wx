@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="flexblock">
+   <button type="primary" bindtap="showToast" >提交中</button>
+   <button type="primary" bindtap="showModal" >显示模态框</button>
+   <button type="primary" bindtap="showActionSheet" >操作菜单</button>
+   <button bindtap="jump1">跳转..</button>
+</view>

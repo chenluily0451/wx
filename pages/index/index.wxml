@@ -1,0 +1,18 @@
+<!--index.wxml-->
+  <scroll-view scroll-y="true" lower-threshold="0" class="container" bindscrolltolower="low" onPullDownRefresh="onPullDownRefresh"	>
+    <block wx:for="{{imgUrls}}"  >
+    <view class="imgwrap" hover="true" hover-class="hoveron">
+      <image src="{{item.url}}" class="imgblock" width="100%"></image>
+        <view class="imginfo">
+          <view class="imginfoleft">
+              <text class="title">{{item.title}}</text>
+              <text class="subtitle">{{item.point}}分 {{item.people}}人做过</text>
+          </view>
+          <view class="imginforight">
+            <image src="{{item.pho}}" class="pho"></image>
+            <text class="phoname">{{item.phoname}}</text>
+          </view>
+        </view>
+    </view>
+    </block>
+  </scroll-view>
